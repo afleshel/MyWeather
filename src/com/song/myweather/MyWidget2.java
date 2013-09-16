@@ -7,11 +7,11 @@ import android.content.Intent;
 import android.os.Bundle;
 
 /** 
- *  类说明 
- * @author  作者： song  
- * @version 创建时间：2013-9-16 上午10:10:14 
+ *  类说�?
+ * @author  作�?�?song  
+ * @version 创建时间�?013-9-16 上午10:10:14 
  */
-public class MyWidget extends AppWidgetProvider{
+public class MyWidget2 extends AppWidgetProvider{
 
 	@Override
 	public void onAppWidgetOptionsChanged(Context context,
@@ -22,7 +22,7 @@ public class MyWidget extends AppWidgetProvider{
 				newOptions);
 	}
 
-	//每次接收到广播都调用一次
+	//每次接收到广播都调用�?��
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		// TODO Auto-generated method stub
@@ -37,8 +37,7 @@ public class MyWidget extends AppWidgetProvider{
 		super.onUpdate(context, appWidgetManager, appWidgetIds);
 	}
 
-	//启动后台服务，获取数据
-	@Override
+	//启动后台服务，获取数�?	@Override
 	public void onEnabled(Context context) {
 		// TODO Auto-generated method stub
 		super.onEnabled(context);

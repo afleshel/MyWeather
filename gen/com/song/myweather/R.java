@@ -19,8 +19,12 @@ public final class R {
         public static final int ic_action_search=0x7f020000;
         public static final int ic_launcher=0x7f020001;
         public static final int refresh_icon=0x7f020002;
-        public static final int widget_bg=0x7f020003;
-        public static final int widget_bg_portrait=0x7f020004;
+        public static final int widget1=0x7f020003;
+        public static final int widget2=0x7f020004;
+        public static final int widget3=0x7f020005;
+        public static final int widget4=0x7f020006;
+        public static final int widget5=0x7f020007;
+        public static final int widget_bg_portrait=0x7f020008;
     }
     public static final class id {
         public static final int menu_settings=0x7f090001;
@@ -28,7 +32,11 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int mywidget=0x7f030001;
+        public static final int mywidget1=0x7f030001;
+        public static final int mywidget2=0x7f030002;
+        public static final int mywidget3=0x7f030003;
+        public static final int mywidget4=0x7f030004;
+        public static final int mywidget5=0x7f030005;
     }
     public static final class menu {
         public static final int activity_main=0x7f080000;
@@ -43,6 +51,10 @@ public final class R {
         public static final int AppTheme=0x7f070000;
     }
     public static final class xml {
-        public static final int appwidget_info=0x7f040000;
+        public static final int appwidget_info1=0x7f040000;
+        public static final int appwidget_info2=0x7f040001;
+        public static final int appwidget_info3=0x7f040002;
+        public static final int appwidget_info4=0x7f040003;
+        public static final int appwidget_info5=0x7f040004;
     }
 }
